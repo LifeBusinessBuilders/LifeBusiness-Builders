@@ -1,0 +1,37 @@
+{
+  "name": "my-hardhat-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts-upgradeable": "^5.2.0",
+    "hardhat": "^2.22.19",
+    "hardhat-deploy": "^1.0.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@openzeppelin/hardhat-upgrades": "^3.9.0",
+    "@sentry/node": "^9.6.0",
+    "axios": "^1.8.3",
+    "cookie": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "ws": "^8.18.1",
+    "zksync-ethers": "^6.16.1"
+  },
+  "overrides": {
+    "elliptic": "^6.5.4"
+  },
+  "resolutions": {
+    "axios": "^1.8.2",
+    "cookie": "^0.7.0",
+    "ws": "^8.18.1"
+  },
+  "description": ""
+}
